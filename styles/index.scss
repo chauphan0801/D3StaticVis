@@ -1,0 +1,22 @@
+body {
+  font: 11px sans-serif;
+  display: flex;
+}
+
+#main {
+  width: 960;
+  height: 600;
+  border: 1px solid #777;
+  display: flex;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.dot {
+  // stroke: #000;
+}
